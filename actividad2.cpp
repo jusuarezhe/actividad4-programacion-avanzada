@@ -338,9 +338,7 @@ public:
     }
 };
 
-// ============================================================================
-// FUNCION MAIN
-// ============================================================================
+
 int main() {
     SimuladorHIL simulador;
     
@@ -358,20 +356,3 @@ int main() {
     return 0;
 }
 
-// ============================================================================
-// NOTAS DEL GRUPO DE TRABAJO
-// ============================================================================
-// [1] Discretizacion: Usamos el metodo de Tustin (transformada bilineal)
-//     que es adecuado para sistemas de control en tiempo real
-// 
-// [2] El derivador implementa exactamente la ecuacion (2) del enunciado
-//     con los parametros especificados: lambda0-3, L=1.8, tau_s=0.004
-//
-// [3] La planta G(s) fue discretizada numericamente. Los coeficientes
-//     se obtuvieron usando herramientas de calculo simbolico
-//
-// [4] Para hardware real (Arduino/RPi): adaptar la seccion de temporizado
-//     y usar bibliotecas especificas de cada plataforma
-//
-// [5] TODO: Implementar comunicacion serial para hardware real
-// [6] TODO: Agregar interfaz grafica con Qt o similar

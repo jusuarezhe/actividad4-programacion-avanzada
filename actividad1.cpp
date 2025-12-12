@@ -280,6 +280,3 @@ int main() {
     
     return 0;
 }
-
-// TODO: optimizar la funcion de heuristica (creo que se puede mejorar)
-// NOTA: funciona bien pero tarda un poco con configuraciones dificiles

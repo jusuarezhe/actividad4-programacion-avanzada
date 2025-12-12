@@ -11,10 +11,9 @@
 
 using namespace std;
 
-// ============================================================================
+
 // FUNCIONES DE ACTIVACION
-// Sofia implemento las funciones de activacion
-// ============================================================================
+
 
 double sigmoid(double x) {
     if(x < -45.0) return 0.0;
@@ -26,10 +25,9 @@ double sigmoid_derivada(double y) {
     return y * (1.0 - y);
 }
 
-// ============================================================================
+
 // CLASE RED NEURONAL ARTIFICIAL (RNA)
-// Daniel diseño la arquitectura de la red
-// ============================================================================
+
 class RedNeuronal {
 private:
     int n_entrada;
@@ -159,10 +157,9 @@ public:
     }
 };
 
-// ============================================================================
+
 // PATRONES DE DIGITOS (7 filas x 5 columnas = 35 pixeles)
-// Camila creo los patrones de entrenamiento
-// ============================================================================
+
 
 // Cada digito es una matriz 7x5 aplanada a vector de 35 elementos
 vector<vector<double>> obtenerPatronesDigitos() {
@@ -281,10 +278,9 @@ vector<vector<double>> obtenerPatronesDigitos() {
     return patrones;
 }
 
-// ============================================================================
+
 // CLASIFICACION Y UTILIDADES
-// Roberto implemento la logica de clasificacion
-// ============================================================================
+
 
 vector<double> obtenerClasesObjetivo(int digito) {
     vector<double> clases(4, 0.0);
@@ -341,7 +337,7 @@ void interpretarClases(const vector<double>& salida, int digito_real) {
 }
 
 // Leer digitos desde archivo digitos.txt
-// Pedro implemento la lectura del archivo
+
 vector<vector<double>> leerDigitosDesdeArchivo(const string& archivo) {
     vector<vector<double>> digitos;
     ifstream file(archivo);
@@ -401,9 +397,7 @@ int reconocerDigito(const vector<double>& patron, const vector<vector<double>>& 
     return mejor_match;
 }
 
-// ============================================================================
-// MAIN
-// ============================================================================
+
 int main() {
     cout << "========================================================" << endl;
     cout << "  RED NEURONAL - CLASIFICACION DE DIGITOS (7x5 pixeles)" << endl;
@@ -487,9 +481,3 @@ int main() {
     return 0;
 }
 
-// NOTAS DEL EQUIPO:
-// - Los digitos son imagenes de 7x5 pixeles (35 valores binarios)
-// - La red aprende a reconocer patrones visuales
-// - Usamos 20 neuronas ocultas para capturar caracteristicas
-// - El entrenamiento toma ~10000 epocas para converger bien
-// - TODO: agregar ruido a los patrones para mejor generalizacion
