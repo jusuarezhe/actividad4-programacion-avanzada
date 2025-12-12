@@ -1,0 +1,70 @@
+REPORTE DE CLASIFICACION - RED NEURONAL ARTIFICIAL
+===================================================
+
+Arquitectura: 10-12-4
+Epocas de entrenamiento: 8000
+Error final MSE: 2.72009e-05
+
+RESULTADOS DE CLASIFICACION:
+----------------------------
+
+Digito 0:
+  PAR: SI (conf=0.995856)
+  IMPAR: NO (conf=0.00556879)
+  PRIMO: NO (conf=0.00699702)
+  COMPUESTO: NO (conf=0.00785364)
+
+Digito 1:
+  PAR: NO (conf=0.00538697)
+  IMPAR: SI (conf=0.995314)
+  PRIMO: NO (conf=0.0075845)
+  COMPUESTO: NO (conf=0.00786999)
+
+Digito 2:
+  PAR: SI (conf=0.994011)
+  IMPAR: NO (conf=0.00562823)
+  PRIMO: SI (conf=0.992631)
+  COMPUESTO: NO (conf=0.00591943)
+
+Digito 3:
+  PAR: NO (conf=0.00393574)
+  IMPAR: SI (conf=0.995662)
+  PRIMO: SI (conf=0.994657)
+  COMPUESTO: NO (conf=0.00168954)
+
+Digito 4:
+  PAR: SI (conf=0.99526)
+  IMPAR: NO (conf=0.00450936)
+  PRIMO: NO (conf=0.00119892)
+  COMPUESTO: SI (conf=0.994194)
+
+Digito 5:
+  PAR: NO (conf=0.00437175)
+  IMPAR: SI (conf=0.995464)
+  PRIMO: SI (conf=0.994907)
+  COMPUESTO: NO (conf=0.00244783)
+
+Digito 6:
+  PAR: SI (conf=0.995068)
+  IMPAR: NO (conf=0.00417043)
+  PRIMO: NO (conf=0.00217372)
+  COMPUESTO: SI (conf=0.994406)
+
+Digito 7:
+  PAR: NO (conf=0.0037344)
+  IMPAR: SI (conf=0.995889)
+  PRIMO: SI (conf=0.994622)
+  COMPUESTO: NO (conf=0.0014225)
+
+Digito 8:
+  PAR: SI (conf=0.995528)
+  IMPAR: NO (conf=0.00416644)
+  PRIMO: NO (conf=0.00151448)
+  COMPUESTO: SI (conf=0.994338)
+
+Digito 9:
+  PAR: NO (conf=0.00637604)
+  IMPAR: SI (conf=0.993636)
+  PRIMO: NO (conf=0.00410547)
+  COMPUESTO: SI (conf=0.991204)
+
