@@ -30,7 +30,7 @@ puzzle_8.exe
 
 ## Ejercicio 1 (10%) — 8-Puzzle Solver
 
-**Archivo:** `puzzle_8.cpp`
+**Archivo:** `actividad1`
 
 **Qué hace:**
 - Resuelve el rompecabezas de 8 piezas (tablero 3x3).
@@ -61,7 +61,7 @@ puzzle_8.exe
 
 ## Ejercicio 2 (50%) — Simulador HIL (Hardware in the Loop)
 
-**Archivo:** `hil_simulator.cpp`
+**Archivo:** `actividad2`
 
 **Qué hace:**
 - Simula una planta SISO (sistema de control) en tiempo real.
@@ -90,7 +90,7 @@ puzzle_8.exe
 
 ## Ejercicio 3 (40%) — Red Neuronal para Clasificación de Dígitos
 
-**Archivo:** `red_neuronal.cpp`
+**Archivo:** `actividad3`
 
 **Qué hace:**
 - Red neuronal artificial que clasifica dígitos del 0 al 9.
@@ -170,9 +170,9 @@ Santiago Torres Guerrero
 Marbin Fabián Rivero  
 
 **Curso:** Programación Avanzada  
-**Profesor:** Mauro Baquero-Suárez  
+**Profesor:** Mauro Baquero Suárez  
 **Programa:** Ingeniería Mecatrónica  
-**Fecha de Entrega:** 16 de Diciembre de 2025
+**Fecha de Entrega:** 11 de Diciembre de 2025
 
 ---
 
